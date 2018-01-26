@@ -1,0 +1,9 @@
+Session
+Graph
+Variable
+feed/fetch
+Tensor = numpy-ndarray
+[batch, height, width, channels]
+op 通常是并发执行的
+TensorFlow 将图形定义转换成分布式执行的操作
+TensorFlow tensor 看作是一个 n 维的数组或列表. 一个 tensor 包含一个静态类型 rank, 和 一个 shape.
